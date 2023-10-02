@@ -4,7 +4,7 @@ from django.http import HttpResponse
 
 
 def index(r):
-    return HttpResponse('<h1>Welcome to django live server</h1>')
+    return HttpResponse('<h1>Welcome to django live server, thanks for visitgit</h1>')
 
 def show(r):
     return HttpResponse('Hi rohit how r you')
